@@ -1,0 +1,19 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ham-line {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 14px 0;
+}
+
+.ham{
+    padding: 20px;
+}
