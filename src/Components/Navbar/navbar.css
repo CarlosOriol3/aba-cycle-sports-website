@@ -17,3 +17,9 @@
 .ham{
     padding: 20px;
 }
+
+@media(min-width: 500px){
+  .ham{
+    display: none;
+  }
+}
