@@ -1,0 +1,53 @@
+.navigation-container {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .navigation-container {
+    display: block;
+  }
+  .navigation-items {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .navigation-item {
+    font-family: "Play", sans-serif;
+    font-size: 1.2em;
+    color: white;
+    list-style: none;
+    padding: 0px 30px;
+    transition: all 500ms ease;
+  }
+
+  .navigation-item:hover {
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+  }
+
+  /* underline animation */
+
+  .navigation-item span {
+    position: relative;
+  }
+
+  .navigation-item span:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .navigation-item span:hover:after {
+    width: 100%;
+    left: 0;
+  }
+}
