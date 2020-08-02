@@ -1,9 +1,9 @@
 h1{
-    font-family: 'Play';
+    font-family: 'Play',sans-serif;
     color:rgb(243, 149, 76);
     font-size: 2em;
 }
 
 p{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
 }

@@ -1,0 +1,45 @@
+.home-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+.home-header h1{
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+.home-header hr{
+    border: 1px solid rgb(243, 149, 76);
+    width: 90%;
+    margin-bottom: 10px;
+}
+.slider-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;     
+}
+.slider{
+    width: 100%;
+}
+
+@media(min-width:800px){
+
+    .home-header h1{
+        font-size: 3em;
+    }
+    .slider-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        padding: 30px;
+    }
+    .slider{
+        width: 800px;
+    }
+    .home-header hr{
+        width: 60%;
+    }
+}
