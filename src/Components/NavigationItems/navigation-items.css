@@ -24,7 +24,7 @@
 
   .navigation-item:hover {
     cursor: pointer;
-    color: orange;
+    color: rgb(236,144,56);
     text-decoration: none;
   }
 
@@ -42,7 +42,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: orange;
+    background: rgb(236,144,56);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }

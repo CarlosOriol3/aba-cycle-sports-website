@@ -1,0 +1,23 @@
+.services-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 140px;
+    
+}
+.services-header h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3em;
+    padding-bottom: 5px;
+}
+.services-header hr{
+    border: 1px solid rgb(236,144,56);
+    width: 75%;
+    margin-bottom: 10px;
+}
+.services-container{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
