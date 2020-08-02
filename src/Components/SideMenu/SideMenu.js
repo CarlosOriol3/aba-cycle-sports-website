@@ -12,6 +12,7 @@ const SideMenu = (props) => {
                 <h2 className='menu-item'>Home</h2>
                 <h2 className='menu-item'>About</h2>
                 <h2 className='menu-item'>Services</h2>
+                <h2 className='menu-item'>Brands</h2>
                 <h2 className='menu-item'>Contact</h2>
                 <h2 className='menu-item'>Location</h2>
             </div>

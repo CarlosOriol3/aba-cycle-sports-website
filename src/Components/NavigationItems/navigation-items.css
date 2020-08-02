@@ -17,7 +17,8 @@
     font-size: 1.2em;
     color: white;
     list-style: none;
-    padding: 0px 30px;
+    padding: 0 5px;
+    margin: 0 20px;
     transition: all 500ms ease;
   }
 
@@ -38,7 +39,7 @@
     bottom: 0;
     content: "";
     display: block;
-    height: 1px;
+    height: 2px;
     left: 50%;
     position: absolute;
     background: orange;

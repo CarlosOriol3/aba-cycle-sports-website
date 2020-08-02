@@ -9,7 +9,8 @@
     background-color: whitesmoke;
     padding: 32px 16px;
     box-sizing: border-box;
-    transition: transform 0.3s ease-in-out ;
+    transition: transform 0.3s ease-in-out;
+    overflow-y: scroll;
 }
 
 .menu-item{

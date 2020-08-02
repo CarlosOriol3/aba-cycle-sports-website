@@ -7,6 +7,7 @@ const NavigationItems = (props) => (
             <li className='navigation-item'><span>Home</span></li>
             <li className='navigation-item'><span>About</span></li>
             <li className='navigation-item'><span>Services</span></li>
+            <li className='navigation-item'><span>Brands</span></li>
             <li className='navigation-item'><span>Contact</span></li>
             <li className='navigation-item'><span>Location</span></li>
         </ul>
