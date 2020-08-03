@@ -26,7 +26,9 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 90%;
+    width: 100%;
+    align-self: center;
+    
   }
   .brand-slider::before, .brand-slider::after {
     background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
@@ -47,8 +49,8 @@
     top: 0;
   }
   .brand-slider .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-            animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+            animation: scroll 20s linear infinite;
     display: flex;
     width: calc(250px * 14);
   }
@@ -56,3 +58,82 @@
     height: 100px;
     width: 250px;
   }
+
+  .brand-slider .slide img{
+    height: 90px;
+    width: 220px;
+    border: 10px solid white;
+  }
+
+
+  .brands-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 140px;
+    
+  }
+  .brands-header h1{
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    padding-bottom: 5px;
+  }
+  .brands-header hr{
+    border: 1px solid rgb(236,144,56);
+    width: 90%;
+    margin: auto;
+  }
+
+  .brand-content{
+    /* width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    */
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    margin-bottom: 30px; 
+    text-align: justify;
+    
+
+    
+  }
+
+  .brand-text{
+    width: 100%;
+  }
+
+  @media(min-width: 1000px){
+    .brands-header h1{
+        font-size: 3em;
+    }
+
+    .brands-header hr{
+        width: 75%;
+    }
+
+    .brand-slider{
+      width: 60%;
+    }
+
+    .brand-content{
+      width: 70%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 1.5em;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      /* text-align: justify; */
+    }
+
+    .brand-text{
+      width: 40%;
+      padding-right: 80px;
+      
+    }
+    
+}
