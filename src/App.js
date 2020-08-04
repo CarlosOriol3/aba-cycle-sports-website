@@ -10,13 +10,15 @@ import Location from './Components/Location/Location'
 function App() {
   return (
     <div>
-      <Layout />
-      <Home />
-      <About />
-      <Services />
-      <Brands />
-      <Contact />
-      <Location />
+      <Layout>
+        <Home />
+        <About />
+        <Services />
+        <Brands />
+        <Contact />
+        <Location />
+      </Layout>
+
     </div>
   )
 }
