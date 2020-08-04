@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    margin-top: 75px;
+    margin-bottom: 55px;
 }
 
 .image-container{

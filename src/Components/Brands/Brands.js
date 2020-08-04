@@ -2,7 +2,7 @@ import React from 'react'
 import './brands.css'
 
 const Brands = () => (
-    <section>
+    <section className='brand-container'>
         
         <div className='brands-header'>
             <h1>Brands</h1>

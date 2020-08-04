@@ -19,6 +19,10 @@
               transform: translateX(calc(-250px * 7));
     }
   }
+
+  .brand-container{
+    margin-top: 95px;
+  }
   .brand-slider {
     /* background: pr; */
     /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */

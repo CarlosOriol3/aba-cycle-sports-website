@@ -2,6 +2,10 @@
   display: none;
 }
 
+.navigation-items a{
+  text-decoration: none;
+}
+
 @media (min-width: 800px) {
   .navigation-container {
     display: block;

@@ -13,6 +13,15 @@
     overflow-y: scroll;
 }
 
+.side-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.side-menu a:active{
+    color: rgb(236,144,56);
+}
+
 .menu-item{
     font-family: 'Play',sans-serif;
     border-bottom: solid 2px rgb(236,144,56);
