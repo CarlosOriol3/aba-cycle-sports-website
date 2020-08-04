@@ -8,11 +8,11 @@ const Location = () => (
             <hr />
         </div>
         <div className='contact-info-container'>
-            <div className='info-item' style={{ width: '350px' }}>
+            <div className='info-item' style={{ width: '360px' }}>
                 <h1>Store</h1>
                 <p style={{ fontSize: '1.1em' }}>Ave. Fagot 2930 Ponce, PR 00716</p>
             </div>
-            <div className='info-item' style={{ width: '350px' }}>
+            <div className='info-item' style={{ width: '360px' }}>
                 <h1>Schedule</h1>
                 <p style={{ fontSize: '1.1em' }}><strong>Tuesdy to Friday:</strong> 9:00 a.m. - 5:00 p.m.</p>
                 <p style={{ fontSize: '1.1em' }}><strong>Saturdays:</strong> 9:00 a.m. - 4:00 p.m.</p>
