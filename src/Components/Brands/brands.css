@@ -69,7 +69,7 @@
   .brands-header{
     width: 100%;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 50px;
     
   }
   .brands-header h1{
@@ -136,4 +136,12 @@
       
     }
     
+}
+
+@media(min-width:1500px){
+  .brand-content{
+    width: 1200px;
+    justify-content: center;
+  }
+  
 }

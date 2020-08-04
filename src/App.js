@@ -5,6 +5,8 @@ import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import Brands from './Components/Brands/Brands'
+import Contact from './Components/Contact/Contact'
+import Location from './Components/Location/Location'
 function App() {
   return (
     <div>
@@ -13,6 +15,8 @@ function App() {
       <About />
       <Services />
       <Brands />
+      <Contact />
+      <Location />
     </div>
   )
 }

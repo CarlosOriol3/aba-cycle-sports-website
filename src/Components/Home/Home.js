@@ -7,7 +7,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Home = () => (
-    <>
+    <section>
         <div className='home-header'>
             <h1>ABA Cycle &amp; Sports</h1>
             <hr />
@@ -26,7 +26,7 @@ const Home = () => (
                 </AutoplaySlider>
             </div>
         </div>
-    </>
+    </section>
 
 
 

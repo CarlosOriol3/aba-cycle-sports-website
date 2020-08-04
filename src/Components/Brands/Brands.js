@@ -2,15 +2,15 @@ import React from 'react'
 import './brands.css'
 
 const Brands = () => (
-    <>
-
+    <section>
+        
         <div className='brands-header'>
             <h1>Brands</h1>
             <hr />
         </div>
 
         <div className='brand-content'>
-            <p className='brand-text'>At ABA Cycle &amp; Sports we sell products from many brands including the ones below and much more. Contact us if you want to know if we have a specific product.</p>
+            <p className='brand-text'>At ABA Cycle &amp; Sports we sell products from many brands including the ones displayed here and much more. Contact us if you want to know if we have a specific product.</p>
 
             <div class="brand-slider">
             <div class="slide-track">
@@ -86,7 +86,7 @@ const Brands = () => (
 
 
 
-    </>
+    </section>
 
 )
 

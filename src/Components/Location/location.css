@@ -1,0 +1,7 @@
+.location-map{
+    width: 100%;
+}
+.location-map iframe{
+    width: 50%;
+    height: 400px;
+}
