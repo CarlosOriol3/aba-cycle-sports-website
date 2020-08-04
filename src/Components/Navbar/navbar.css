@@ -11,7 +11,8 @@
 }
 
 .navbar img{
-  width: 70px;
+  width: 65px;
+  padding: 5px 10px;
 }
 
 .ham-line {
@@ -27,6 +28,10 @@
 .navbar h1{
   display: none;
 }
+
+.header-text{
+  display: none;
+}
 @media(min-width: 800px){
   .ham{
     display: none;
@@ -39,5 +44,8 @@
     text-decoration: underline;
     margin: 20px 30px;
     font-size: 2.8em;
+  }
+  .header-text{
+    display: block;
   }
 }

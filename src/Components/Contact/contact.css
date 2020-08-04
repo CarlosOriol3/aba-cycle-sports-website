@@ -49,6 +49,16 @@
 .info-item img{
     margin: 0 110px;
 }
+
+.contact-link{
+    color: black;
+}
+
+.contact-link:hover{
+    color: rgb(236,144,56);
+    text-decoration: none;
+}
+
 @media(min-width: 1000px){
     .contact-header h1{
         font-size: 3em;

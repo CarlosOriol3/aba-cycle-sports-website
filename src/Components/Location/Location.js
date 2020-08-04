@@ -14,7 +14,7 @@ const Location = () => (
             </div>
             <div className='info-item' style={{ width: '350px' }}>
                 <h1>Schedule</h1>
-                <p style={{ fontSize: '1em' }}><strong>Tuesdy to Friday:</strong> 9:00 a.m. - 5:00 p.m.</p>
+                <p style={{ fontSize: '1em' }}><strong>Tuesday to Friday:</strong> 9:00 a.m. - 5:00 p.m.</p>
                 <p style={{ fontSize: '1em' }}><strong>Saturdays:</strong> 9:00 a.m. - 4:00 p.m.</p>
             </div>
         </div>

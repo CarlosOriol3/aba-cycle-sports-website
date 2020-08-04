@@ -12,14 +12,14 @@ const Contact = () => (
         <div className='contact-info-container'>
             <div className='info-item'>
                 <h1>Phone</h1>
-                <p>(787) - 848 - 0000</p>
+                <p><a href='tel:1-787-848-0000' className='contact-link'>(787) - 848 - 0000</a></p>
             </div>
             <div className='info-item'>
                 <h1>Email</h1>
-                <p>abacycle@gmail.com</p>
+                <p><a href='mailto:abacyclesports@gmail.com' className='contact-link'>abacyclesports@gmail.com</a></p>
             </div>
             <div className='info-item'>
-                <a href='https://www.facebook.com/abacyclesports' target='_blank' rel="noopener noreferrer"><img width='80px' src='https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512' alt='facebook' /></a>
+                <a className='fb-logo' href='https://www.facebook.com/abacyclesports' target='_blank' rel="noopener noreferrer"><img width='80px' src='https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512' alt='facebook' /></a>
             </div>
 
         </div>
