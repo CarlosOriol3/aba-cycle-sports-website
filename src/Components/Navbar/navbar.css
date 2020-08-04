@@ -10,19 +10,34 @@
     z-index: 80;
 }
 
+.navbar img{
+  width: 90px;
+}
+
 .ham-line {
   width: 35px;
   height: 3px;
   background-color: white;
-  margin: 14px 0;
+  margin: 10px 0;
 }
 
 .ham{
     padding: 20px;
 }
-
+.navbar h1{
+  display: none;
+}
 @media(min-width: 800px){
   .ham{
     display: none;
+  }
+  .navbar img{
+    display: none;
+  }
+  .navbar h1{
+    display: block;
+    text-decoration: underline;
+    margin: 20px 30px;
+    font-size: 2.8em;
   }
 }
