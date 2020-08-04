@@ -11,18 +11,18 @@
 }
 
 .navbar img{
-  width: 90px;
+  width: 70px;
 }
 
 .ham-line {
   width: 35px;
-  height: 3px;
+  height: 2px;
   background-color: white;
   margin: 10px 0;
 }
 
 .ham{
-    padding: 20px;
+    padding: 0 10px;
 }
 .navbar h1{
   display: none;
