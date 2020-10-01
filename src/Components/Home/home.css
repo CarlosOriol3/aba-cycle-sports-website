@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-@media(min-width:800px){
+@media(min-width:1200px){
 
     .home-header h1{
         font-size: 3em;
