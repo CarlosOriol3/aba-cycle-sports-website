@@ -1,29 +1,50 @@
 import React from 'react';
 import './App.css';
 import Layout from './Components/Layout/Layout'
-import Home from './Components/Home/Home'
+import Slider from './Components/Slider/Slider'
 import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import Brands from './Components/Brands/Brands'
 import Contact from './Components/Contact/Contact'
 import Location from './Components/Location/Location'
 import Separator from './Components/Separator/Separator'
+import { Fade, Slide } from "react-awesome-reveal";
 function App() {
   return (
     <div>
       <Layout>
         <Separator section='home' />
-        <Home />
+        <Fade triggerOnce>
+          <Slider />
+        </Fade>
         <Separator section='about' />
-        <About />
+        <Slide triggerOnce>
+          <About />
+        </Slide>
         <Separator section='services' />
-        <Services />
+        <Slide direction='up' triggerOnce>
+          <Fade triggerOnce>
+            <Services />
+          </Fade>
+        </Slide>
         <Separator section='brands' />
-        <Brands />
+        <Slide direction='up' triggerOnce>
+          <Fade triggerOnce>
+            <Brands />
+          </Fade>
+        </Slide>
         <Separator section='contact' />
-        <Contact />
+        <Slide direction='up' triggerOnce>
+          <Fade triggerOnce>
+            <Contact />
+          </Fade>
+        </Slide>
         <Separator section='location' />
-        <Location />
+        <Slide direction='up' triggerOnce>
+          <Fade triggerOnce>
+            <Location />
+          </Fade>
+        </Slide>
       </Layout>
 
     </div>
